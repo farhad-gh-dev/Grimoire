@@ -96,7 +96,7 @@ export function AppShell() {
           <MenuIcon />
         </button>
         <NavLink to="/prompts" className="flex items-center gap-2" aria-label="Grimoire">
-          <img src="/grimoire.svg" alt="" className="h-6 w-6" />
+          <img src={`${import.meta.env.BASE_URL}grimoire.svg`} alt="" className="h-6 w-6" />
           <span className="text-md font-semibold text-text-primary">Grimoire</span>
         </NavLink>
         <NavLink to="/settings" className="btn-ghost btn-icon" aria-label="Settings">
@@ -197,7 +197,7 @@ function Sidebar({
       >
         <div className="hidden md:flex items-center justify-between h-12 px-4 border-b border-border-subtle">
           <NavLink to="/prompts" className="flex items-center gap-2" aria-label="Grimoire — all prompts">
-            <img src="/grimoire.svg" alt="" className="h-6 w-6" />
+            <img src={`${import.meta.env.BASE_URL}grimoire.svg`} alt="" className="h-6 w-6" />
             <span className="text-md font-semibold text-text-primary">Grimoire</span>
           </NavLink>
           <NavLink to="/settings" className="btn-ghost btn-icon" aria-label="Settings" title="Settings">
