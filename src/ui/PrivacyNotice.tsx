@@ -17,7 +17,7 @@ export function PrivacyNotice({ onAck }: Props) {
         <h2 id="privacy-title" className="text-md text-text-primary mb-3">Where your prompts live</h2>
         <ul className="text-sm text-text-secondary space-y-2 list-disc pl-5 mb-5 marker:text-text-muted">
           <li>Prompts and collections are stored only in this browser. Clearing site data deletes them.</li>
-          <li>Nothing is uploaded to a server unless you create a share link for a specific prompt.</li>
+          <li>Nothing is ever uploaded — there is no server component at all.</li>
           <li>No accounts, no tracking, no third-party analytics.</li>
           <li>Use <span className="text-text-primary">Settings → Export</span> to back up your library to a JSON file.</li>
         </ul>
