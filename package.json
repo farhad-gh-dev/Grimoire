@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "A local-first prompt library — save, organize, search, version, and share AI prompts.",
+  "description": "A local-first prompt library — save, organize, search, and version AI prompts.",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
