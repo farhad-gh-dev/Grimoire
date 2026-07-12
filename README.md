@@ -75,6 +75,7 @@ npm run preview   # serve the production build locally
 | `c`            | New prompt                  |
 | `g`            | Go to library               |
 | `?`            | Show all keyboard shortcuts |
+| `Esc`          | Close any dialog            |
 
 ## Where your data lives
 
